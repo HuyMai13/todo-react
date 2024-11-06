@@ -1,0 +1,63 @@
+body {
+    font-family: sans-serif;
+    background: hsl(0, 0%, 20%);
+    text-align: center;
+    color: white;
+}
+h1 {
+    margin-top: 0;
+    font-size: 5rem;
+}
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 0.25rem;
+}
+ol {
+    margin-top: 5vh;
+    padding: 0 10vw;
+}
+li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0 0 0.5rem hsl(0, 0%, 50%);
+    border-radius: 0.5rem;
+}
+span {
+    flex: 1;
+    overflow: hidden;
+}
+
+button {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: snow;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.add-button {
+    background-color: hsl(120, 90%, 35%);
+}
+.add-button:hover {
+    background-color: hsl(120, 90%, 25%);
+}
+.del-button {
+    background-color: hsl(0, 70%, 50%);
+}
+.del-button:hover {
+    background-color: hsl(0, 70%, 40%);
+}
+.move-button {
+    background-color: hsl(200, 100%, 30%);
+    margin-left: 0.5rem;
+}
+.move-button:hover {
+    background-color: hsl(200, 100%, 20%);
+}
